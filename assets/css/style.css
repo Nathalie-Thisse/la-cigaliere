@@ -81,35 +81,54 @@ header .booking-btn-header a:hover{
 
 
 /*
-    *** PAGE ROOMS ***
+    *** PAGE ROOM ***
+    (for double, single, family and twin room)
 */
 
-#double-room .room-list li{
+#room .carousel .carousel-item {
+    height: 500px;
+  }
+  
+#room .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: -185px;
+      left: 0;
+      min-height: 500px;
+  }
+
+#room .rooms-links a{
+    font-size: 1.3rem;
+    padding: 2rem 1rem 0 1rem;
+    text-decoration: underline;
+}
+
+#room .room-list li{
     list-style: none;    
     padding: 2rem 1.5rem;
     font-size: 1.5rem;
     color: var(--bleu);
 }
 
-#double-room .boxes div{
+#room .boxes div{
     text-align: center;
     padding: 0 2rem;
 }
 
-#double-room .boxes ul{     
+#room .boxes ul{     
     padding: 0rem;
 }
 
-#double-room .boxes li{    
+#room .boxes li{    
     list-style: none;
 }
 
-#double-room .fas{
+#room .fas{
     font-size: 1.5rem;
     padding-bottom: 1.2rem;
 }
 
-#double-room .general-amenities div{
+#room .general-amenities div{
     padding: 0 4rem;
 }
 
