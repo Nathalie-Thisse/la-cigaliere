@@ -165,6 +165,10 @@ footer .fas{
 
 @media screen and (max-width:767px){
 
+    iframe{        
+        width: 25rem !important;
+    }
+
     #rooms section{
         display: flex;
         flex-direction: column;
@@ -174,7 +178,7 @@ footer .fas{
         width: 25rem !important;
     }
 
-
+}
 
 
 }
