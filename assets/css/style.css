@@ -165,6 +165,15 @@ footer .fas{
 
 @media screen and (max-width:767px){
 
+    #rooms section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rooms .card{
+        width: 25rem !important;
+    }
+
 
 
 
