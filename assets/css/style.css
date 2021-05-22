@@ -1,0 +1,152 @@
+/*
+    *** BASE CSS ***
+*/
+
+:root{
+    --bleu:#3270ab;
+    --bleuclair: #3bbcf0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'dosis', Helvetica, sans-serif;
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 0rem 0 2.5rem 0;
+}
+
+h2, h3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+a{        
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    color: var(--bleuclair);
+}
+
+.booking-btn {
+    color: white;
+    background-color: var(--bleuclair);
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    box-shadow: 0 0 7px rgb(0 0 0 / 20%);
+}
+
+/*
+    *** HEADER ***
+*/
+
+header{
+    background-color: var(--bleu);
+    padding: 2rem 0rem;
+}
+
+header a{
+    color: white;
+}
+
+header p{
+    color: white;
+}
+
+header ul li{
+    list-style: none;    
+    padding: 0rem 1.5rem;
+}
+
+header .booking-btn-header a:hover{
+    color: var(--bleu);
+}
+
+/*
+    *** PAGE HOME ***
+*/
+
+#home .presentation{
+    text-align: center;
+}
+
+
+/*
+    *** PAGE ROOMS ***
+*/
+
+#double-room .room-list li{
+    list-style: none;    
+    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+    color: var(--bleu);
+}
+
+#double-room .boxes div{
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#double-room .boxes ul{     
+    padding: 0rem;
+}
+
+#double-room .boxes li{    
+    list-style: none;
+}
+
+#double-room .fas{
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+#double-room .general-amenities div{
+    padding: 0 4rem;
+}
+
+/*
+    *** FOOTER ***
+*/
+
+footer{
+    background-color: var(--bleu);
+    color: white;
+    margin-top: 4rem;
+}
+
+footer a{
+    color: white
+}
+
+footer div{
+    border: solid 0.01rem var(--bleuclair);
+    text-align: center;
+}
+
+footer .fas{
+    font-size: 2rem;
+    border-bottom: solid;
+    padding-bottom: 1.2rem;
+}
+
+/*
+    ** RESPONSIVE **
+*/
+/* mobile */
+/* between 0 and 767px */
+
+@media screen and (max-width:767px){
+
+
+
+
+}
