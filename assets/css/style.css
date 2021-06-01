@@ -33,6 +33,10 @@ a{
     text-decoration: none;
 }
 
+body a:hover{
+    color: var(--vertclair)
+}
+
 header a:hover, footer a:hover{
     color: var(--vert);
 }
@@ -42,10 +46,14 @@ header a:hover, footer a:hover{
     background-color: var(--vert);
     padding: 0.8rem 1rem;
     border-radius: 2rem;
-    margin-right: 1rem;
+    margin-right: 1rem;    
+    margin-top: -0.8rem;
     box-shadow: 0 0 7px rgb(0 0 0 / 20%);
 }
 
+header .booking-btn-header a:hover{
+    color: var(--vertclair);
+}
 
 /*
     *** HEADER ***
