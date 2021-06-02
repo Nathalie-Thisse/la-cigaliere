@@ -3,7 +3,8 @@
 */
 
 :root{
-    --vertclair:#81B622;
+    /* --vertclair:#81B622; */
+    --vertclair:#BACC81;
     --vert: #658a1a;
 }
 
@@ -17,7 +18,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-header h1{
+h1{
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
     font-size: 6rem;
@@ -86,10 +87,19 @@ header ul li{
     text-align: center;
 }
 
+/*
+    *** PAGE ROOMS ***
+    (with all rooms)
+*/
+
+#rooms .card-body + h5{
+    color: var(--vert) !important;
+}
+
 
 /*
     *** PAGE ROOM ***
-    (for double, single, family and twin room)
+    (for double, family and twin room)
 */
 
 #room .carousel .carousel-item {
@@ -170,6 +180,11 @@ footer section:last-child{
 }
 
 
+footer section:last-child a:hover{
+    color: var(--vertclair);
+}
+
+
 /*
     ** RESPONSIVE **
 */
@@ -206,6 +221,7 @@ footer section:last-child{
         height: 300px;
     }
     
+
     #rooms section{
         display: flex;
         flex-direction: column;
