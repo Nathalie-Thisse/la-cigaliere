@@ -119,6 +119,7 @@ header .booking-btn-header a:hover{
     font-size: 1.3rem;
     padding: 2rem 1rem 0 1rem;
     text-decoration: underline;
+    color: var(--vert);
 }
 
 #room .room-list li{
@@ -165,8 +166,12 @@ footer a{
 }
 
 footer div{
-    border: solid 0.01rem var(--vert);
     text-align: center;
+}
+
+footer .middle-div{
+    border-left: solid 0.01rem var(--vert);
+    border-right: solid 0.01rem var(--vert);
 }
 
 footer .fas{
@@ -176,13 +181,9 @@ footer .fas{
 }
 
 footer section:last-child{
-    background-color: var(--vert);
-    font-size: 0.8rem;
-}
-
-
-footer section:last-child a:hover{
-    color: var(--vertclair);
+    font-size: 0.8rem;    
+    border-top: solid 0.01rem var(--vert);
+    padding: auto 0 !important;
 }
 
 
@@ -194,9 +195,6 @@ footer section:last-child a:hover{
 
 @media screen and (max-width:767px){
 
-    *{
-        margin-right: 0!important;
-    }
 
     header h1{
         text-align: center;
@@ -210,8 +208,9 @@ footer section:last-child a:hover{
 
     header .tel{
         margin-right: 1rem;
+        font-size: 0.9rem;
     }
-    
+
     .map-responsive{
         width: 300px;
         height: 300px;
@@ -231,8 +230,11 @@ footer section:last-child a:hover{
         width: 18rem !important;
     }
 
-    footer div{
-        padding: 0rem;
+    footer .middle-div{
+        border-top: solid 0.01rem var(--vert);
+        border-bottom: solid 0.01rem var(--vert);
+        border-left: none;
+        border-right: none;
     }
     
 }
