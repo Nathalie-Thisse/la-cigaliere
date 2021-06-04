@@ -198,6 +198,12 @@ footer .footer-last-section{
 
 @media screen and (max-width:767px){
 
+    *{
+        margin-right: 0;
+    }
+    header{
+        padding: 1.5rem;
+    }
 
     header h1{
         text-align: center;
@@ -205,13 +211,16 @@ footer .footer-last-section{
     }
 
     header ul li{
-        padding: 0rem 0.4rem !important;
+        padding: 0rem 0.25rem !important;
         text-align: center;
     }
 
     header .tel{
-        margin-right: 1rem;
-        font-size: 0.9rem;
+        display: none;
+    }
+
+    .booking-btn-header{
+        margin-left: 7rem;
     }
 
     .map-responsive{
